@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		70148B511BB60A0900B52B41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70148B501BB60A0900B52B41 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		70148B4B1BB60A0900B52B41 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		70148B4D1BB60A0900B52B41 /* Banker`s Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Banker`s Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
-		70148B501BB60A0900B52B41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		70803CA51BB856B100D5E79A /* BankersAlgorithm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BankersAlgorithm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +37,7 @@
 		70148B441BB60A0900B52B41 = {
 			isa = PBXGroup;
 			children = (
-				70148B4F1BB60A0900B52B41 /* Banker`s Algorithm */,
+				70803CA51BB856B100D5E79A /* BankersAlgorithm */,
 				70148B4E1BB60A0900B52B41 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +48,6 @@
 				70148B4D1BB60A0900B52B41 /* Banker`s Algorithm */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		70148B4F1BB60A0900B52B41 /* Banker`s Algorithm */ = {
-			isa = PBXGroup;
-			children = (
-				70148B501BB60A0900B52B41 /* main.cpp */,
-			);
-			path = "Banker`s Algorithm";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70148B511BB60A0900B52B41 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +222,7 @@
 				70148B561BB60A0900B52B41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
